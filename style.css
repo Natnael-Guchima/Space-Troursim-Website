@@ -1,0 +1,26 @@
+/*Home Background Image */
+
+/* Desketop */
+body {
+  background-image: url("/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* /////////////////////////// */
+
+/* Tablet  */
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+  }
+}
+/* /////////////////////////// */
+
+/* Phone  */
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url("/assets/home/background-home-mobile.jpg");
+  }
+}
