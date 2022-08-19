@@ -1,3 +1,6 @@
+:root {
+}
+
 /*Home Background Image */
 
 /* Desketop */
@@ -7,6 +10,11 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
+
+  /* Font  */
+  /* font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif; */
+  font-family: "Barlow Condensed", sans-serif;
 }
 /* /////////////////////////// */
 
@@ -24,3 +32,6 @@ body {
     background-image: url("/assets/home/background-home-mobile.jpg");
   }
 }
+/* //////////////////////////////////////////////////////////////////////////// */
+
+/* Navigation Bar  */
