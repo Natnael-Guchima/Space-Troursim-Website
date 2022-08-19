@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  margin: 0;
 
   /* Font  */
   /* font-family: 'Barlow Condensed', sans-serif;
@@ -79,4 +80,23 @@ body {
 
 .nav-item:hover {
   border-bottom: 3px solid #979797;
+}
+
+.nav-line {
+  border-bottom: 1px solid #979797;
+  width: 473px;
+  display: inline-block;
+  position: absolute;
+  left: -430px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav-logo {
+  margin-left: 55px;
 }
