@@ -67,7 +67,7 @@ body {
 
 .nav-item {
   color: var(--color-white);
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2.7px;
@@ -99,4 +99,29 @@ body {
 
 .nav-logo {
   margin-left: 55px;
+}
+
+/* Navigation bar for tablet  */
+
+/* Glass nav*/
+@media screen and (max-width: 768px) {
+  .nav-list-container {
+    width: 450px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .nav-list {
+    column-gap: 37px;
+  }
+
+  .nav-line {
+    display: none;
+  }
+
+  .nav-bar {
+    margin-top: 0;
+  }
 }
